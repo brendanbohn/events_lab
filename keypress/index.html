@@ -3,6 +3,8 @@
 	<head>
     	<meta charset="utf-8">
 		  <title>Submit</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/styles.css">
@@ -12,8 +14,34 @@
     <script src="base.js"></script>
 	</head>
 	<body>
-    <h1>Stopwatch!</h1>
-    <p>Press the spacebar to start the timer. Press it again to stop it. Display the total time.</p>
-    <h2>Total time: <span id="total-time">00:00</span></h2>
+	
+		<nav class="navbar navbar-default">
+			<a class="navbar-brand" href="#">Day 4 Homework</a>
+				<ul class="nav navbar-nav">
+              <li><a href="../change/index.html">Change</a></li>
+              <li><a href="../click/index.html">Click</a></li>
+              <li class="active"><a href="../keypress/index.html">Keypress</a></li>
+               <li><a href="../ready/index.html">Ready</a></li>
+               <li><a href="../submit/index.html">Submit</a></li>
+        </ul>
+		</nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="text-center">Stopwatch!</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <p class="text-left">Press the spacebar to start the timer. Press it again to stop it. Display the total time.</p>
+          <h2 class="text-left">Total time: <span id="total-time">00:00</span></h2>
+        </div>
+      </div>
+    </div>
+
 	</body>
 </html>

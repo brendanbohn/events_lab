@@ -3,7 +3,7 @@
 	<head>
     	<meta charset="utf-8">
 		  <title>Change</title>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/styles.css">
 
@@ -12,12 +12,38 @@
     <script src="base.js"></script>
 	</head>
 	<body>
-    <h1>Add the numbers!</h1>
-    <p>Last refresh: <span id="time"></span></p>
-    <!-- <form> -->
-      <input type="number" class="add" id="left"> +
-      <input type="number" class="add" id="right"> =
-      <input type="number" id="total"><br>
-    <!-- </form> -->
+    
+    <nav class="navbar navbar-default">
+        <a class="navbar-brand" href="https://github.com/sf-wdi-22-23/events_lab">Day 4 Homework</a>
+           <ul class="nav navbar-nav">
+               <li  class="active"><a href="../change/index.html">Change</a></li>
+               <li><a href="../click/index.html">Click</a></li>
+               <li><a href="../keypress/index.html">Keypress</a></li>
+               <li><a href="../ready/index.html">Ready</a></li>
+               <li><a href="../submit/index.html">Submit</a></li>
+           </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6-sm">
+                <h1>Add the numbers!</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6-sm">
+                    <p>Last refresh: <span id="time"></span></p>
+                <!-- <form> -->
+                    <input type="number" class="add" id="left"> +
+                    <input type="number" class="add" id="right"> =
+                    <input type="number" id="total"><br>
+                <!-- </form> -->
+            </div>
+        </div>
+    </div>
+    
 	</body>
 </html>
